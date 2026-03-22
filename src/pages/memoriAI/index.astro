@@ -1,0 +1,67 @@
+---
+import '../../styles/global.css';
+
+const appName = 'MemoriAI';
+const title = 'MemoriAI';
+const subtitle = 'AI搭載フラッシュカード学習アプリ';
+const navLinks = [
+  { label: 'プライバシーポリシー', href: '/memoriAI/privacy' },
+  { label: '利用規約', href: '/memoriAI/terms' },
+  { label: 'ホーム', href: '/' }
+];
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{appName}</title>
+    <meta name="description" content={subtitle} />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p class="app-name">{appName}</p>
+        <h1>{title}</h1>
+        <p class="subtitle">{subtitle}</p>
+        <div class="nav-links">
+          {navLinks.map(link => <a href={link.href}>{link.label}</a>)}
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="section">
+          <p>
+            MemoriAI は、AI技術を活用した革新的なフラッシュカード学習アプリです。
+            効率的な学習を実現し、知識の定着をサポートします。
+          </p>
+        </div>
+
+        <h2>主な機能</h2>
+        <ul>
+          <li>AI による自動フラッシュカード生成</li>
+          <li>インテリジェント復習スケジューリング</li>
+          <li>クラウド同期による複数デバイス対応</li>
+          <li>詳細な学習統計の表示</li>
+        </ul>
+
+        <h2>対応プラットフォーム</h2>
+        <ul>
+          <li>iOS 14.0 以上</li>
+          <li>Apple App Store で利用可能</li>
+        </ul>
+
+        <h2>サポート</h2>
+        <p>
+          ご質問・ご要望は、メールでお気軽にお問い合わせください。
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2025 All rights reserved.</p>
+        <p style="margin-top:8px;"><a href="/memoriAI/privacy">プライバシーポリシー</a> ／ <a href="/memoriAI/terms">利用規約</a> ／ <a href="/">ホーム</a></p>
+      </div>
+    </div>
+  </body>
+</html>
