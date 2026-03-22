@@ -24,105 +24,91 @@ import '../../styles/global.css';
 
       <div class="content">
         <div class="section">
-          <p>
-            本アプリケーション「GitHub Trend」（以下「本アプリ」）のご利用にあたって取得する個人情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。
-          </p>
+          <p>本アプリ「GitHub Trend」をご利用いただきありがとうございます。このプライバシーポリシーは、当アプリがどのような情報を収集し、どのように使用するかについて説明しています。</p>
         </div>
 
         <h2>1. 収集する情報</h2>
-        <p>本アプリでは、以下の情報を収集する場合があります：</p>
-        <table class="data-table">
-          <thead>
-            <tr>
-              <th>情報の種類</th>
-              <th>収集目的</th>
-              <th>収集方法</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>GitHub ユーザーID（オプション）</td>
-              <td>認証・パーソナライズ</td>
-              <td>OAuth認証</td>
-            </tr>
-            <tr>
-              <td>検索・フィルター履歴</td>
-              <td>ユーザー体験改善</td>
-              <td>アプリ使用時</td>
-            </tr>
-            <tr>
-              <td>お気に入り保存データ</td>
-              <td>個人的な情報管理</td>
-              <td>クラウド同期</td>
-            </tr>
-            <tr>
-              <td>利用統計・クラッシュレポート</td>
-              <td>アプリ品質向上</td>
-              <td>第三者SDK</td>
-            </tr>
-            <tr>
-              <td>広告識別子（IDFA）※オプトイン制</td>
-              <td>パーソナライズ広告</td>
-              <td>ATT フレームワーク</td>
-            </tr>
-          </tbody>
-        </table>
+        <p><strong>あなたが直接提供する情報</strong></p>
+        <ul>
+          <li>GitHub ユーザー ID（オプション、OAuth認証時）</li>
+        </ul>
+
+        <p style="margin-top: 20px;"><strong>自動的に収集される情報</strong></p>
+        <ul>
+          <li>検索履歴とフィルター設定</li>
+          <li>お気に入りリポジトリ</li>
+          <li>デバイス情報（モデル、OS バージョン）</li>
+          <li>利用統計とクラッシュレポート</li>
+          <li>広告識別子（IDFA）※トラッキング同意時のみ</li>
+        </ul>
 
         <h2>2. 情報の利用目的</h2>
-        <p>収集した情報は以下の目的のみに使用します：</p>
+        <p>収集した情報は、以下の目的でのみ使用されます：</p>
         <ul>
-          <li>本アプリのサービス提供・機能改善</li>
-          <li>ユーザー設定・お気に入りの保存</li>
-          <li>GitHub API 経由でのリポジトリ情報取得</li>
-          <li>アプリのバグ修正・品質向上</li>
+          <li>GitHub API 経由でのリポジトリ情報取得と表示</li>
+          <li>あなたのお気に入りと検索設定の保存</li>
+          <li>アプリの提供と機能改善</li>
+          <li>バグ修正とパフォーマンス向上</li>
           <li>広告の配信（同意したユーザーのみ）</li>
         </ul>
 
-        <h2>3. 利用する第三者サービス</h2>
-        <p>本アプリは以下の第三者サービスを利用しており、各社のプライバシーポリシーが適用されます：</p>
+        <p style="margin-top: 20px;"><strong>当社はあなたの情報を販売したり、第三者に共有することはありません。</strong></p>
+
+        <h2>3. 第三者サービスについて</h2>
+        <p>本アプリは以下の第三者サービスを使用しており、これらのサービスはそれぞれのプライバシーポリシーに従います：</p>
 
         <div class="section">
           <p><strong>GitHub API</strong></p>
-          <p>トレンドリポジトリ・ユーザー情報の取得に使用します。</p>
-          <p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Policy →</a></p>
+          <p>トレンドリポジトリとユーザー情報の取得に使用します。</p>
+          <p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub プライバシーポリシー</a></p>
         </div>
 
         <div class="section">
-          <p><strong>Google AdMob</strong>（広告配信）</p>
-          <p>無料プランのユーザーに広告を表示するために使用します。</p>
-          <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy →</a></p>
+          <p><strong>Google Analytics / Firebase</strong></p>
+          <p>アプリの使用状況やクラッシュレポートを収集し、パフォーマンス向上に利用します。</p>
+          <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google プライバシーポリシー</a></p>
         </div>
 
-        <h2>4. データの安全性</h2>
+        <div class="section">
+          <p><strong>Google AdMob</strong></p>
+          <p>広告の配信に使用します。トラッキング同意がない場合は、個人情報に基づかない広告を配信します。</p>
+          <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google プライバシーポリシー</a></p>
+        </div>
+
+        <h2>4. データセキュリティ</h2>
         <p>
-          ユーザーデータはクラウドサーバーに暗号化されて保存されます。合理的な技術的・組織的措置を講じてデータを保護しますが、インターネットを経由した通信の完全な安全性を保証することはできません。
+          当社は、あなたのデータを保護するために適切なセキュリティ対策を実施しています。ただし、インターネット経由の通信に完全な安全性を保証することはできません。データは暗号化されて保存されます。
         </p>
 
-        <h2>5. データの削除</h2>
-        <p>
-          ユーザーはいつでも本アプリ内の設定からアカウントを削除できます。削除を行うと、以下のデータがすべて消去されます：
-        </p>
+        <h2>5. あなたの権利</h2>
+        <p>あなたは以下の権利を有しています：</p>
         <ul>
-          <li>認証情報</li>
-          <li>お気に入りリポジトリ</li>
-          <li>検索履歴</li>
-          <li>ユーザー設定</li>
+          <li><strong>アクセス権：</strong>当社が保有するあなたのデータを知る権利</li>
+          <li><strong>削除権：</strong>いつでもアカウント削除でデータをすべて削除できます</li>
+          <li><strong>取消権：</strong>トラッキング同意をいつでも取り消せます</li>
         </ul>
 
-        <h2>6. Cookie およびトラッキング技術</h2>
+        <h2>6. データの保持期間</h2>
+        <ul>
+          <li>ユーザー設定：アカウント削除まで保持</li>
+          <li>お気に入りリポジトリ：アカウント削除まで保持</li>
+          <li>クラッシュレポート：90 日間</li>
+          <li>分析データ：26 ヶ月間</li>
+        </ul>
+
+        <h2>7. トラッキングと App Tracking Transparency</h2>
         <p>
-          本アプリはウェブブラウザの Cookie を使用しません。ただし、第三者 SDK がデバイス識別子を使用することがあります。
+          本アプリが広告識別子（IDFA）にアクセスする場合、iOS が提供する App Tracking Transparency フレームワークを通じてあなたの同意を求めます。トラッキングをしない場合でも、アプリの全機能をご利用いただけます。
         </p>
 
-        <h2>7. プライバシーポリシーの変更</h2>
+        <h2>8. ポリシーの更新</h2>
         <p>
-          本ポリシーは必要に応じて改定されることがあります。重要な変更がある場合はアプリ内でお知らせします。
+          当社は必要に応じてこのプライバシーポリシーを更新することがあります。重要な変更は、アプリ内でお知らせします。
         </p>
 
-        <h2>8. お問い合わせ</h2>
-        <p>
-          プライバシーに関するご質問・削除リクエストは、メールでお問い合わせください。
-        </p>
+        <h2>9. お問い合わせ</h2>
+        <p>プライバシーに関するご質問がある場合は、下記までお問い合わせください：</p>
+        <p style="margin-top: 15px;"><strong>メール：</strong> contact@githubtrend.app</p>
       </div>
 
       <div class="footer">
