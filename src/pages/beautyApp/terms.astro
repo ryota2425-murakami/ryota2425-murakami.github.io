@@ -1,0 +1,178 @@
+---
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>利用規約 — BeautyApp</title>
+    <meta name="description" content="BeautyApp の利用規約です。アプリをご利用いただく前に必ずお読みください。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+        line-height: 1.8; color: #2d3748;
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        min-height: 100vh; padding: 40px 20px;
+      }
+      .container {
+        max-width: 900px; margin: 0 auto; background: #fff;
+        border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        overflow: hidden; animation: fadeIn 0.6s ease-out;
+      }
+      @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+      .header {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        color: #fff; padding: 60px 40px; text-align: center;
+      }
+      .header .app-name { font-size: 0.95rem; font-weight: 300; opacity: 0.85; margin-bottom: 8px; letter-spacing: 2px; text-transform: uppercase; }
+      .content { padding: 50px 40px; }
+      h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 10px; letter-spacing: -0.5px; }
+      .subtitle { font-size: 1rem; font-weight: 300; opacity: 0.9; }
+      h2 {
+        color: #f5576c; font-size: 1.3rem; font-weight: 600;
+        margin-top: 40px; margin-bottom: 15px; padding-bottom: 10px;
+        border-bottom: 2px solid #e2e8f0; position: relative;
+      }
+      h2::before {
+        content: ''; position: absolute; bottom: -2px; left: 0;
+        width: 60px; height: 2px;
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      }
+      p { margin-bottom: 16px; font-size: 0.97rem; }
+      ul { margin: 12px 0 20px 0; padding-left: 20px; }
+      li { margin-bottom: 10px; font-size: 0.97rem; position: relative; padding-left: 10px; }
+      li::before { content: '→'; position: absolute; left: -12px; color: #f5576c; font-weight: bold; }
+      a { color: #f5576c; text-decoration: none; font-weight: 500; transition: color 0.2s ease; }
+      a:hover { color: #f093fb; }
+      .section {
+        background: #fff5f7; padding: 28px 30px; border-radius: 12px;
+        margin: 28px 0; border-left: 4px solid #f5576c;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .section:hover { transform: translateX(5px); box-shadow: 0 4px 12px rgba(245,87,108,0.15); }
+      .nav-links { display: flex; gap: 16px; justify-content: center; margin-top: 12px; flex-wrap: wrap; }
+      .nav-links a {
+        background: rgba(255,255,255,0.2); color: #fff; padding: 6px 18px;
+        border-radius: 20px; font-size: 0.88rem; border: 1px solid rgba(255,255,255,0.35);
+        transition: background 0.2s ease;
+      }
+      .nav-links a:hover { background: rgba(255,255,255,0.35); color: #fff; }
+      .footer {
+        background: #fff5f7; padding: 30px 40px; text-align: center;
+        color: #718096; font-size: 0.88rem; border-top: 1px solid #e2e8f0;
+      }
+      .footer a { font-size: 0.88rem; }
+      .last-updated { font-size: 0.85rem; color: #718096; margin-top: 8px; }
+      @media (max-width: 768px) {
+        body { padding: 20px 10px; }
+        .header { padding: 40px 24px; }
+        .content { padding: 30px 24px; }
+        h1 { font-size: 2rem; }
+        .section { padding: 20px; }
+      }
+      @media (max-width: 480px) {
+        h1 { font-size: 1.7rem; }
+        h2 { font-size: 1.15rem; }
+        p, li { font-size: 0.93rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p class="app-name">BeautyApp</p>
+        <h1>利用規約</h1>
+        <p class="subtitle">Terms of Service</p>
+        <div class="nav-links">
+          <a href="/beautyApp/privacy">プライバシーポリシー</a>
+          <a href="/">ホーム</a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="section">
+          <p>本利用規約（以下「本規約」）は、開発者が提供するモバイルアプリケーション「BeautyApp」（以下「本アプリ」）の利用条件を定めるものです。本アプリをインストール・利用することで、本規約に同意したものとみなします。</p>
+          <p class="last-updated">最終更新日：2026年4月9日</p>
+        </div>
+
+        <h2>第1条（適用）</h2>
+        <p>本規約は、本アプリの利用に関して開発者とユーザーの間に適用されます。本アプリを利用する際は、本規約のすべての条項に同意していただく必要があります。</p>
+
+        <h2>第2条（サービスの内容）</h2>
+        <p>本アプリは、美容施術の記録・管理サービスを提供します。主な機能は以下のとおりです：</p>
+        <ul>
+          <li>美容施術の記録と履歴管理</li>
+          <li>施術写真の保存と管理</li>
+          <li>予約スケジュールの管理</li>
+          <li>施術データの分析とグラフ表示</li>
+          <li>AIによる施術提案機能</li>
+        </ul>
+
+        <h2>第3条（アカウントの登録）</h2>
+        <p>本アプリの一部機能はアカウント登録が必要です。アカウント登録に際して、正確な情報を提供することに同意するものとします。不正確な情報によって生じた損害について、開発者は責任を負いません。</p>
+
+        <h2>第4条（アカウントの削除）</h2>
+        <p>ユーザーはいつでも本アプリ内の設定画面から自己のアカウントを削除できます。アカウント削除時には、以下のデータが消去されます：</p>
+        <ul>
+          <li>施術記録および関連写真データ</li>
+          <li>予約・スケジュールデータ</li>
+          <li>プロフィール情報</li>
+          <li>認証情報（メールアドレス・パスワード）</li>
+        </ul>
+        <p>削除されたデータは復元できません。</p>
+
+        <h2>第5条（禁止事項）</h2>
+        <p>ユーザーは以下の行為を行ってはなりません：</p>
+        <ul>
+          <li>本アプリのリバースエンジニアリング、逆コンパイル、改ざん</li>
+          <li>本アプリを通じた違法コンテンツの作成・共有</li>
+          <li>他のユーザーや第三者の権利を侵害する行為</li>
+          <li>サービスへの不正アクセスや過度な負荷をかける行為</li>
+          <li>本規約または適用法令に違反する行為</li>
+          <li>他者に成りすます行為</li>
+        </ul>
+
+        <h2>第6条（知的財産権）</h2>
+        <p>本アプリおよびそのコンテンツ（デザイン、ロゴ、コードを含む）に関する知的財産権は、開発者または正当な権利者に帰属します。本規約に基づきユーザーに付与されるのは、個人的・非商業的な利用に限定されたライセンスです。</p>
+
+        <h2>第7条（ユーザーコンテンツ）</h2>
+        <p>ユーザーが本アプリに登録した施術記録・写真等のコンテンツについて、ユーザー自身が権利を保持します。開発者は、サービス提供に必要な範囲でのみこれらのデータを利用します。</p>
+
+        <h2>第8条（第三者サービス）</h2>
+        <p>本アプリは以下の第三者サービスを利用しています：</p>
+        <ul>
+          <li>Firebase（認証・データ同期）</li>
+          <li>Apple CloudKit（データバックアップ）</li>
+        </ul>
+        <p>各サービスの利用規約およびプライバシーポリシーを別途ご確認ください。</p>
+
+        <h2>第9条（免責事項）</h2>
+        <p>本アプリは「現状有姿」で提供されます。開発者は、本アプリの正確性、完全性、継続的な利用可能性について保証しません。本アプリの利用により生じた損害（データの損失を含む）について、開発者は法令が認める最大限の範囲で責任を負いません。</p>
+
+        <h2>第10条（サービスの変更・終了）</h2>
+        <p>開発者は、理由の如何を問わず、事前通知なく本アプリの機能追加・変更・終了を行う場合があります。終了の際は可能な限り事前にお知らせしますが、保証するものではありません。</p>
+
+        <h2>第11条（準拠法・管轄）</h2>
+        <p>本規約は日本法に準拠します。本規約に関して紛争が生じた場合、開発者の所在地を管轄する裁判所を第一審の専属的合意管轄裁判所とします。</p>
+
+        <h2>第12条（規約の変更）</h2>
+        <p>開発者は必要に応じて本規約を変更することがあります。変更後の規約はこのページに掲載した時点で効力を生じます。重要な変更がある場合はアプリ内で通知します。</p>
+
+        <h2>お問い合わせ</h2>
+        <p>本規約に関するご質問は、下記メールアドレスまでお問い合わせください：<br />
+        <a href="mailto:BeautryApps@gmail.com">BeautryApps@gmail.com</a></p>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2026 BeautyApps. All rights reserved.</p>
+        <p style="margin-top:8px;">最終更新日：2026年4月9日 ／ <a href="/beautyApp/privacy">プライバシーポリシー</a> ／ <a href="/">ホーム</a></p>
+      </div>
+    </div>
+  </body>
+</html>
